@@ -1,0 +1,18 @@
+version: "3"
+services:
+  jenkins: # https://github.com/jenkinsci/docker/blob/master/README.md
+    image: jenkins/jenkins:lts-jdk11
+    volumes:
+      - ./jenkins_home:/var/jenkins_home
+    restart: on-failure
+  apache:
+    image: httpd:latest
+    ports:
+      - '8080:8080'
+      - '8081:8081'
+    volumes:
+      - ./httpd.conf:/usr/local/apache2/conf/httpd.conf
+      - ./localhost.crt:/certificates/localhost.crt
+      - ./localhost.key:/certificates/localhost.key
+    links:
+      - jenkins

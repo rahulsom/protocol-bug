@@ -1,0 +1,20 @@
+### SimplerGradle template
+# JetBrains template
+/.idea/
+/*.iws
+/*.iml
+/*.ipr
+/out/
+/.idea_modules/
+
+## Jenkins
+jenkins_home/war
+jenkins_home/.cache
+jenkins_home/.java
+jenkins_home/updates
+jenkins_home/userContent
+jenkins_home/**/builds
+jenkins_home/**/nextBuildNumber
+jenkins_home/copy_reference_file.log
+jenkins_home/.lastStarted
+
