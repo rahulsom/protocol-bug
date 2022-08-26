@@ -21,3 +21,10 @@ jenkins_home/logs/
 jenkins_home/queue.xml
 jenkins_home/queue.xml.bak
 jenkins_home/users/*/apiTokenStats.xml
+jenkins_home/hudson.tasks.Shell.xml
+jenkins_home/hudson.triggers.SCMTrigger.xml
+jenkins_home/jenkins.fingerprints.GlobalFingerprintConfiguration.xml
+jenkins_home/jenkins.model.ArtifactManagerConfiguration.xml
+jenkins_home/jenkins.model.GlobalBuildDiscarderConfiguration.xml
+jenkins_home/jenkins.security.ResourceDomainConfiguration.xml
+jenkins_home/jenkins.tasks.filters.EnvVarsFilterGlobalConfiguration.xml
