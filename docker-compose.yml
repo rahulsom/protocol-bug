@@ -1,9 +1,10 @@
 version: "3"
 services:
   jenkins: # https://github.com/jenkinsci/docker/blob/master/README.md
-    image: jenkins/jenkins:lts-jdk11
+    build:
+      context: tomcat-jenkins
     volumes:
-      - ./jenkins_home:/var/jenkins_home
+      - ./jenkins_home:/root/.jenkins
     restart: on-failure
   apache:
     image: httpd:latest
