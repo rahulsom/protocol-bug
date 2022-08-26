@@ -17,4 +17,5 @@ jenkins_home/**/builds
 jenkins_home/**/nextBuildNumber
 jenkins_home/copy_reference_file.log
 jenkins_home/.lastStarted
+jenkins_home/logs/
 
