@@ -18,4 +18,6 @@ jenkins_home/**/nextBuildNumber
 jenkins_home/copy_reference_file.log
 jenkins_home/.lastStarted
 jenkins_home/logs/
-
+jenkins_home/queue.xml
+jenkins_home/queue.xml.bak
+jenkins_home/users/*/apiTokenStats.xml
